@@ -20,14 +20,24 @@
     margin: 0;
 }
 
+
+.delete-container{
+    display: flex;
+    align-items: center;
+}
+
 .btn-delete{
     width: 55px;
     height: 55px;
     border-radius: 50%;
     border: 0;
     background: rgba(235,87,87,0.3);
+    transition: all 0.3s ease;
 }
-
+.btn-delete:hover{
+    background-color: rgba(235,87,87,0.5);
+    cursor: pointer;
+}
 .delete-icon{
     color: #EB5757;
     font-size: 31px;
